@@ -4,7 +4,7 @@
 Summary:	Generate a dot graph from the output of several profiles.
 Name:		python-%{module}
 Version:	1.0
-Release:	0.1
+Release:	0.2
 License:	LGPL
 Group:		Development/Languages/Python
 Source0:	http://pypi.python.org/packages/source/g/%{module}/%{module}-%{version}.zip
@@ -14,7 +14,7 @@ BuildRequires:	python-distribute
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.228
 Requires(post,preun):	/sbin/chkconfig
-Requires:	python-graphviz
+Requires:	graphviz
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
