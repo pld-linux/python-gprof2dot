@@ -12,7 +12,7 @@ Source0:	http://pypi.python.org/packages/source/g/%{module}/%{module}-%{version}
 URL:		http://python-mock.sourceforge.net/
 BuildRequires:	python-distribute
 BuildRequires:	rpm-pythonprov
-BuildRequires:	rpmbuild(macros) >= 1.228
+BuildRequires:	rpmbuild(macros) >= 1.710
 Requires(post,preun):	/sbin/chkconfig
 Requires:	graphviz
 BuildArch:	noarch
